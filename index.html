@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali Uzair | Security Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Orbitron:wght@500;700;900&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary-red: #ff0033;
@@ -46,7 +49,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: 
+            background-image:
                 linear-gradient(rgba(255, 0, 51, 0.03) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(255, 0, 51, 0.03) 1px, transparent 1px);
             background-size: 50px 50px;
@@ -55,8 +58,13 @@
         }
 
         @keyframes gridMove {
-            0% { transform: translate(0, 0); }
-            100% { transform: translate(50px, 50px); }
+            0% {
+                transform: translate(0, 0);
+            }
+
+            100% {
+                transform: translate(50px, 50px);
+            }
         }
 
         /* Navigation */
@@ -98,8 +106,17 @@
         }
 
         @keyframes blink {
-            0%, 50%, 100% { opacity: 1; }
-            25%, 75% { opacity: 0.3; }
+
+            0%,
+            50%,
+            100% {
+                opacity: 1;
+            }
+
+            25%,
+            75% {
+                opacity: 0.3;
+            }
         }
 
         nav ul {
@@ -207,6 +224,7 @@
                 opacity: 0;
                 transform: translateX(-30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0);
@@ -299,6 +317,7 @@
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
@@ -316,9 +335,12 @@
         }
 
         @keyframes float {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0px);
             }
+
             50% {
                 transform: translateY(-20px);
             }
@@ -753,6 +775,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="background-grid"></div>
 
@@ -783,7 +806,7 @@
                     Security Engineer
                 </p>
                 <p class="hero-description">
-                    Specializing in web application security, penetration testing, and secure cloud architectures. 
+                    Specializing in web application security, penetration testing, and secure cloud architectures.
                     Building robust systems that protect data and defend against emerging threats.
                 </p>
                 <div class="cta-buttons">
@@ -791,12 +814,10 @@
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
             </div>
-            
+
             <div class="hero-visual">
                 <div class="hero-image">
-                    <img src="hacker.png" 
-                         alt="Cybersecurity Hacker" 
-                         onerror="this.style.display='none'">
+                    <img src="hacker.png" alt="Cybersecurity Hacker" onerror="this.style.display='none'">
                 </div>
             </div>
         </div>
@@ -821,8 +842,8 @@
                         <div class="project-icon">🔒</div>
                     </div>
                     <p class="project-description">
-                        Enterprise-grade file storage system with JWT authentication, role-based access control, 
-                        and AWS S3 integration. Features automated storage quota enforcement, activity logging, 
+                        Enterprise-grade file storage system with JWT authentication, role-based access control,
+                        and AWS S3 integration. Features automated storage quota enforcement, activity logging,
                         and comprehensive admin dashboard for monitoring system metrics and user behavior.
                     </p>
                     <div class="project-tech">
@@ -833,7 +854,8 @@
                         <span class="tech-tag">JWT</span>
                         <span class="tech-tag">bcrypt</span>
                     </div>
-                    <a href="https://github.com/aliuzair1/Secure_Cloud_Based_File_Storage_System" target="_blank" class="project-link">
+                    <a href="https://github.com/aliuzair1/Secure_Cloud_Based_File_Storage_System" target="_blank"
+                        class="project-link">
                         View on GitHub
                     </a>
                 </div>
@@ -848,8 +870,8 @@
                         <div class="project-icon">🛡️</div>
                     </div>
                     <p class="project-description">
-                        Automated security scanner for cloud infrastructure that identifies misconfigurations, 
-                        exposed credentials, and compliance violations. Provides detailed vulnerability reports 
+                        Automated security scanner for cloud infrastructure that identifies misconfigurations,
+                        exposed credentials, and compliance violations. Provides detailed vulnerability reports
                         with remediation recommendations aligned with industry security frameworks.
                     </p>
                     <div class="project-tech">
@@ -858,7 +880,8 @@
                         <span class="tech-tag">Security Analysis</span>
                         <span class="tech-tag">Vulnerability Assessment</span>
                     </div>
-                    <a href="https://github.com/aliuzair1/Cloud-Vulnerability-Scanner" target="_blank" class="project-link">
+                    <a href="https://github.com/aliuzair1/Cloud-Vulnerability-Scanner" target="_blank"
+                        class="project-link">
                         View on GitHub
                     </a>
                 </div>
@@ -878,10 +901,8 @@
                 <div class="skill-category">
                     <h3 class="skill-category-title">Programming Languages</h3>
                     <ul class="skill-list">
-                        <li class="skill-item">JavaScript / Node.js</li>
+                        <li class="skill-item">JavaScript</li>
                         <li class="skill-item">Python</li>
-                        <li class="skill-item">C++</li>
-                        <li class="skill-item">HTML / CSS</li>
                     </ul>
                 </div>
 
@@ -903,7 +924,6 @@
                         <li class="skill-item">REST APIs</li>
                         <li class="skill-item">JWT Authentication</li>
                         <li class="skill-item">Session Management</li>
-                        <li class="skill-item">EJS Templating</li>
                     </ul>
                 </div>
 
@@ -913,14 +933,12 @@
                         <li class="skill-item">AWS S3</li>
                         <li class="skill-item">Cloud Security</li>
                         <li class="skill-item">PostgreSQL</li>
-                        <li class="skill-item">Database Design</li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
                     <h3 class="skill-category-title">Security Practices</h3>
                     <ul class="skill-list">
-                        <li class="skill-item">Ethical Hacking</li>
                         <li class="skill-item">Security Analysis</li>
                         <li class="skill-item">Secure Coding</li>
                         <li class="skill-item">Access Control</li>
@@ -955,27 +973,27 @@
                 </div>
                 <ul class="experience-responsibilities">
                     <li>
-                        Conducted comprehensive web application security testing and penetration testing 
-                        aligned with the OWASP Top 10 framework, identifying and documenting critical 
+                        Conducted comprehensive web application security testing and penetration testing
+                        aligned with the OWASP Top 10 framework, identifying and documenting critical
                         vulnerabilities across multiple client applications.
                     </li>
                     <li>
-                        Leveraged industry-standard security tools including Burp Suite and OWASP ZAP 
-                        to perform in-depth vulnerability assessments, identifying injection flaws, 
+                        Leveraged industry-standard security tools including Burp Suite and OWASP ZAP
+                        to perform in-depth vulnerability assessments, identifying injection flaws,
                         authentication weaknesses, and security misconfigurations.
                     </li>
                     <li>
-                        Analyzed application architecture and data flow to identify potential attack vectors, 
-                        performing both automated and manual testing to uncover complex security issues that 
+                        Analyzed application architecture and data flow to identify potential attack vectors,
+                        performing both automated and manual testing to uncover complex security issues that
                         automated tools might miss.
                     </li>
                     <li>
-                        Applied ethical hacking methodologies and best practices in web security to simulate 
+                        Applied ethical hacking methodologies and best practices in web security to simulate
                         real-world attack scenarios, providing detailed remediation guidance to development teams.
                     </li>
                     <li>
-                        Collaborated with cross-functional teams to implement security improvements, 
-                        contributing to the development of more secure coding practices and enhanced 
+                        Collaborated with cross-functional teams to implement security improvements,
+                        contributing to the development of more secure coding practices and enhanced
                         security awareness across the organization.
                     </li>
                 </ul>
@@ -993,8 +1011,8 @@
 
             <div class="contact-content">
                 <p class="contact-description">
-                    I'm currently open to new opportunities in cybersecurity, web application security, 
-                    and backend development. Whether you have a question, project idea, or just want 
+                    I'm currently open to new opportunities in cybersecurity, web application security,
+                    and backend development. Whether you have a question, project idea, or just want
                     to connect, feel free to reach out.
                 </p>
                 <div class="contact-links">
@@ -1092,4 +1110,5 @@
         });
     </script>
 </body>
+
 </html>
